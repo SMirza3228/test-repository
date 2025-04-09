@@ -11,9 +11,9 @@
     justify-content: space-between;
 }
 
-@mixin card-element {
-    width: 500px;
-    height: 500px;
-    
-    background-color: $primary-color;
+@mixin position-center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
 }

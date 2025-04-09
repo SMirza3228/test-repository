@@ -1,12 +1,69 @@
 * {
   box-sizing: border-box;
-  font-family: "", sans-serif;
+  font-family: "Outfit", sans-serif;
   text-decoration: none;
   list-style-type: none;
   margin: 0;
 }
 
+@font-face {
+  font-family: "Outfit";
+  src: url(fonts/Outfit/static/Outfit-Black.ttf) format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
+}
+
+img {
+  width: 90%;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main__wrapper {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+.main__inner {
+  width: 400px;
+  height: 630px;
+  position: absolute;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 0 30px 10px rgba(0, 0, 0, 0.1);
+  background-color: hsl(0, 0%, 100%);
+}
+.main .qr-code {
+  border-radius: 20px;
+}
+.main__title {
+  width: 300px;
+  padding: 20px 0;
+  margin: 0 auto;
+  line-height: 36px;
+  font-size: 26px;
+  color: hsl(218, 44%, 22%);
+}
+.main__desc {
+  width: 300px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  line-height: 25px;
+  font-size: 18px;
+  color: hsl(216, 15%, 48%);
 }
