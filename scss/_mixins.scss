@@ -1,0 +1,19 @@
+@import '_varriables';
+
+@mixin container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@mixin flex-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin card-element {
+    width: 500px;
+    height: 500px;
+    
+    background-color: $primary-color;
+}
